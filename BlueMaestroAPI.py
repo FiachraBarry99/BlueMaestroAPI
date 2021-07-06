@@ -75,5 +75,5 @@ def translate(pckt: bytes):
 #to test if functions are working as expected
 if __name__ == '__main__':
     raw_data = scan(timeout=15)
-    decoded_data = translate(raw_data)
+    decoded_data = translate(raw_data[0])
     print(decoded_data)
