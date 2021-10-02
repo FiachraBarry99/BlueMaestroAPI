@@ -21,6 +21,6 @@ print(info[temperature], info[humidity], info[batt_lvl])
 This example scans for Blue Maestro advertising packets for 20 seconds and prints the temperature, humidity and battery level. 
 
 ## Issues/Notes
-I have tested this API pretty rigoursly on Windows but I had some issues trying to implement it in Linux. I think this is because the Linux backend (BlueZ) has a different way of handling the scan response payload but I am not entirely sure. I have not yet attempted to use this on Mac and would really appreciate if someone could test it out as I do not personally own one.
+I have tested this API pretty rigoroursly on Windows but I had some issues trying to implement it in Linux. I think this is because the Linux backend (BlueZ) has a different way of handling the scan response payload but I am not entirely sure. I have not yet attempted to use this on Mac and would really appreciate if someone could test it out as I do not personally own one.
 
 Please note this is the first ever API of this kind I have written, so any issues or suggestions you have please let me know. Even if you need a hand implementing the code in your project please don't hesitate to reach out.
