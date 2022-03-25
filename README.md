@@ -15,7 +15,7 @@ import BlueMaestroAPI as blm
 raw_data = blm.scan(timeout = 20)
 info = blm.translate(raw_data[0])
 
-print(info[temperature], info[humidity], info[batt_lvl])
+print(info["temperature"], info["humidity"], info["batt_lvl"])
 ```
   
 This example scans for Blue Maestro advertising packets for 20 seconds and prints the temperature, humidity and battery level. 
